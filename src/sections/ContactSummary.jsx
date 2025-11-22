@@ -11,6 +11,7 @@ const ContactSummary = () => {
     "Trust",
     "Collaboration",
     "Excellence",
+    "Adaptability"
   ];
   const items2 = [
     "contact us",
@@ -47,13 +48,17 @@ const ContactSummary = () => {
           web application <span className="text-gold">together</span> “
         </p>
       </div>
+      {/* original
       <Marquee
         items={items2}
         reverse={true}
         className="text-black bg-transparent border-y-2"
         iconClassName="stroke-gold stroke-2 text-primary"
         icon="material-symbols-light:square"
-      />
+      /> */}
+
+    
+
     </section>
   );
 };

@@ -111,7 +111,7 @@ const WorkDetails = () => {
   if (!project) {
     return (
       <div className="flex items-center justify-center h-screen text-2xl font-semibold">
-        Project Not Found
+        Project not Found
       </div>
     );
   }
